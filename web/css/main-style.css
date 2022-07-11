@@ -1,0 +1,263 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 Apr 2022, 5:13:20 pm
+    Author     : Asyraf
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html *, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../images/bg-1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+body.error-page {
+    background: white;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.pt { 
+    padding-top: 50px; 
+}
+.mt-5 {
+    margin-top: 50px;
+}
+.pb { 
+    padding-bottom: 15px; 
+}
+.navbar-brand {
+    color: black;
+}
+a { 
+    text-decoration: none;
+    color: blue; 
+}
+a:hover {
+    color: red;
+}
+.kotak {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0px 7px 15px 0px gray;
+}
+select {
+    padding: 8px;
+    width: 216px;
+}
+input[type=text], input[type=email], input[type=number], 
+input[type=password], input[type=date] {
+    padding: 8px;
+    min-width: 200px;
+}
+/*
+button[type=submit], button[type=reset] {
+    padding: 8px;
+    width: 216px;
+    border: 0.5px solid gray;
+    background-color: #F2F2F2;
+}
+*/
+button[type=submit]:hover, button[type=reset]:hover {
+    color: white;
+    background-color: gray;
+    transition: ease-in-out 0.3s;
+}
+.navbar-toggler {
+    border: 0.5px solid #cccccc;
+    color: #cccccc;
+}
+.form-group {
+    padding: 10px;
+}
+.alert {
+    text-align: center;
+}
+.warning {
+    color: red;
+    background-color: aliceblue;
+    border: 1px solid red;
+    padding: 10px;
+}
+.success {
+    color: green;
+    background-color: aliceblue;
+    border: 1px solid green;
+    padding: 10px;
+}
+.website-name {
+    padding: 10px;
+    font-size: 20px;
+}
+.website-name a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-shadow: 0px 0px 15px gray;
+}
+.website-name a:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+    background: -webkit-linear-gradient(#d0efb1, #b3d89c, #9dc3c2, #77a6b6);
+}
+.header-name {
+    padding-top: 15%;
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 0px 0px 15px gray;
+}
+.display-1 {
+    color: white;
+    text-shadow: 0px 0px 15px gray;
+}
+.index-name {
+    padding-top: 15%;
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: black;
+    text-shadow: 0px 0px 15px gray;
+}
+h2.header-name1 a {
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 0px 0px 15px gray;
+}
+.header-booking {
+    padding-top: 8%;
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 0px 0px 15px gray;
+}
+.btn-book {
+    padding: 8px;
+    width: 216px;
+    border: 0;
+    background-color: #F2F2F2;
+}
+.btn-book:hover {
+    background-color: #cccccc;
+}
+.user-nav, .account-content {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+.account-content {
+    margin-top: 20px;
+}
+.primary {
+    background-color: #3366ff;
+    color: white;
+    border: 0.5px solid gray;
+}
+.primary:hover {
+    color: black;
+    border: 0.5px solid gray;
+}
+.img-list {
+    width: auto;
+    height: 200px;
+}
+table {
+    margin: auto;
+}
+.camp-details {
+    width: 40%;
+}
+th, td {
+    padding: 10px;
+}
+th.theader, th.tfooter {
+    text-align: center;
+    background-color: #ffcc66;
+}
+.kotak-update, .kotak-profile {
+    text-align: center;
+}
+.header-box, .footer-box {
+    background-color: #ffcc66;
+    font-weight: bolder;
+}
+table.table-reservation {
+    width: 100%;
+}
+.btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 6px;
+}
+.btn-delete:hover {
+    background-color: #cc0000;
+}
+.btn-edit {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 6px;
+}
+.btn-edit:hover {
+    background-color: #3399ff;
+}
+.btn-edit-disabled, .btn-edit-disabled:hover, 
+.btn-delete-disabled, .btn-delete-disabled:hover {
+    opacity: 50%;
+}
+.status-confirm {
+    color: #33cc00;
+}
+.status-pending {
+    color: #999999;
+}
+
+@media screen and (max-width: 960px) {
+    html, body {
+        background-size: auto;
+    }
+    .kotak {
+        margin: auto;
+        width: auto;
+    }
+    label {
+    }
+    .pb-md {
+        margin-bottom: 15px;
+    }
+    .none-lg {
+        display: none;
+    }
+    table.camp-details {
+        width: 100%;
+    }
+    .reservation-history {
+        overflow-x: scroll;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .none-xs {
+        display: none;
+    }
+}
