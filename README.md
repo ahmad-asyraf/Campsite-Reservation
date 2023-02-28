@@ -25,7 +25,7 @@ To install and set up this project, follow these steps:
 <ol>
   <li> Clone the repository from GitHub: git clone https://github.com/ahmad-asyraf/Campsite-Reservation.git. </li>
   <li> Open the project in NetBeans. </li>
-  <li> Configure the database connection by modifying the DBConnection file in the src/java/com/util/DBConnection.java. </li>
+  <li> Configure the database connection by modifying the DBConnection file in the <pre>src/java/com/util/DBConnection.java</pre> </li>
   <li> Build the project using Ant. </li>
   <li> Deploy the WAR file to a Tomcat server. </li>
   <li> Run the application in a web browser. </li>
