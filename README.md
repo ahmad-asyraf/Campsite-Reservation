@@ -18,7 +18,7 @@ In order to run this project, you will need:
   <li> NetBeans IDE 15 or higher </li>
   <li> Apache Tomcat server 9 or higher </li>
   <li> MySQL database </li>
-<ul>
+</ul>
 
 <h2>Installation and Setup</h2>
 To install and set up this project, follow these steps:
@@ -33,20 +33,22 @@ To install and set up this project, follow these steps:
 </ol>
 
 <h2>Key Features</h2>
-<ol>
+<ul>
   <li> Search for available campsites based on dates and amenities. </li>
   <li> Reserve campsites online. </li>
   <li> View a calendar of upcoming reservations. </li>
   <li> Admin dashboard for managing reservations and campsites. </li>
-  
+</ul>
+
 <h2>Troubleshooting</h2>
 If you encounter any issues while installing or running this project, try the following:
 
-<ol>
+<ul>
   <li> Make sure all prerequisites are installed and configured correctly. </li>
   <li> Check the logs for any error messages. </li>
   <li> Search the project's GitHub Issues for similar issues and solutions. </li>
-  
+</ul>
+
 If you are still having issues, you can open a new issue on the project's GitHub page.
 
 <h2>Contributors</h2>
