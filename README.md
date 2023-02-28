@@ -3,9 +3,8 @@ This is a Java web application for my Semester 4 - MVC/Centric project. The proj
 
 <h2>Requirements:-</h2>
 <ul>
-  <li> Technologies </li>
   <li> Java with Ant </li>
-  <li> NetBeans 15 </li>
+  <li> NetBeans 15 IDE </li>
   <li> PHP 8 </li>
   <li> JDK 17 </li>
 </ul>
