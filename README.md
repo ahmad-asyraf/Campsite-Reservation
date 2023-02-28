@@ -1,7 +1,7 @@
 # Campsite-Reservation
 This is a Java web application for my Semester 4 - MVC/Centric project. The project is for reserving campsites. It allows users reerve for available campsites based on their preferred dates and amenities, and make reservations online.
 
-<h2>Requirements:-</h2>
+<h2>Technologies</h2>
 <ul>
   <li> Java with Ant </li>
   <li> NetBeans 15 IDE </li>
